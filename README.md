@@ -1,6 +1,8 @@
 ## toddlerclock.py
 toddlerclock.is a small extremely stupid clock built using pygame. Its goal is to tell my four year old when she can come wake me up. It... was not that successful? Oh well.
 
+I refactored this recently to make the code less annoying (it was a terrible hack) and now it doesn't do modifiable colours any more. I'll add them back in when I have a couple of hours. 
+
 ## Installing pygame for python3
 
 There are a bunch of libraries pygame needs. Here's what I installed:
