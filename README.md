@@ -14,9 +14,7 @@ sudo pip3 install pygame
 
 This is intended to run on a raspberry pi with a display. If run on a workstation, it will create a small window, so it's possible to test it locally without a raspberry pi. 
 
-The code as-is works with the [PiTFT capacitive display](https://www.adafruit.com/product/1983). I
-
-For the [7" touchscreen display](https://www.adafruit.com/product/2718), comment out ```os.putenv('SDL_FBDEV', '/dev/fb1')```, and it should use the right display by default. 
+The code as-is works with the [PiTFT capacitive display](https://www.adafruit.com/product/1983). For the [7" touchscreen display](https://www.adafruit.com/product/2718), comment out ```os.putenv('SDL_FBDEV', '/dev/fb1')```, and it should use the right display by default. I haven't tested it with anything else.
 
 You can modify the brightness (at least for the 7" display; I haven't tested the PiTFT) by editing ```/sys/devices/platform/rpi_backlight/backlight/rpi_backlight/brightness```
 
